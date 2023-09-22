@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaErgastConsole", "FormulaErgastConsole\FormulaErgastConsole.csproj", "{387A4CC5-F021-488E-8AA0-22FBB7C661B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaErgastConsole", "FormulaErgastConsole\FormulaErgastConsole.csproj", "{387A4CC5-F021-488E-8AA0-22FBB7C661B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErgastModels", "ErgastModels\ErgastModels.csproj", "{BEA1C8E1-F676-4BE4-9E3D-A772E43769CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgastModels", "ErgastModels\ErgastModels.csproj", "{BEA1C8E1-F676-4BE4-9E3D-A772E43769CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaErgastAPI", "FormulaErgastAPI\FormulaErgastAPI.csproj", "{73FC7FC6-FD0A-4079-8630-595080B37C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BEA1C8E1-F676-4BE4-9E3D-A772E43769CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA1C8E1-F676-4BE4-9E3D-A772E43769CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA1C8E1-F676-4BE4-9E3D-A772E43769CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FC7FC6-FD0A-4079-8630-595080B37C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FC7FC6-FD0A-4079-8630-595080B37C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FC7FC6-FD0A-4079-8630-595080B37C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FC7FC6-FD0A-4079-8630-595080B37C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
